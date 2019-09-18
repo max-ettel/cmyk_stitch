@@ -1,14 +1,14 @@
 # cmyk_stitch
 Print Oriented Processing Sketch.
 
-##What is this?
+## What is this?
 I wrote this sketch for my FRESH portfolio showcase. It takes CMYK color channels and processes them into a series of lines.
 These lines when layered in a print will create an approximation of the original image, however with a unique texture as a result of the code. 
 
 
-##How to
+## How to
 
-###file prep
+### file prep
 ***Photoshop*** 
 1. Open Desired Image File
 2. If Image is in RGB go to -> *Image* -> *Mode* -> *CMYK Color*
@@ -25,7 +25,7 @@ These lines when layered in a print will create an approximation of the original
 
 *Note:*I would recommend bright images for this process, dark ones can get very muddles in the printing process. Image size can also present problems, I would recommend using images that arent too large. 
 
-###Prepping and running the code
+### Prepping and running the code
 ***Processing Sketch***
 13. Open the processing Sketch
 14. In the *setup* section set it to the size to the same as the images (ensures that everything saves correctly).
@@ -35,7 +35,7 @@ These lines when layered in a print will create an approximation of the original
  *Note:* Ive found that a cellsize of 10 usually produces the best results.
  17. Press Run. It may take a moment depending on the image sizes. 
  
- ###Accessing the Processed Images and Prepping them for Print
+ ### Accessing the Processed Images and Prepping them for Print
  ***File Manager***
  18. Acess the Folder that Contains the .pde file
  19. In that folder will be the images labeled as cyan_0001, magenta_0002, yellow_0003 and key__0004.
@@ -58,7 +58,7 @@ These lines when layered in a print will create an approximation of the original
  34. Repeat Steps 25-30 With the Magenta, Yellow, and Key Layers. Revealing each frame int the panel after every time. 
  35. Print 
  
- ###In Closing
+ ### In Closing
  This is can be quite a process. If processing had better ways of contending with CMYK images this would be a lot more automated. As of now this is the best way I've found to do this. 
  
  Thank you for checking this out!
