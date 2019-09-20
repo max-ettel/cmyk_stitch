@@ -23,7 +23,7 @@ These lines when layered in a print will create an approximation of the original
 11. Save the file out as a Jpeg to the *data* folder included with the code
 12. Repeat steps 4-11 for the Magenta, Yellow, and Key Channels.
 
-**Note:**I would recommend bright images for this process, dark ones can get very muddles in the printing process. Image size can also present problems, I would recommend using images that arent too large. 
+**Note:** I would recommend bright images for this process, dark ones can get very muddles in the printing process. Image size can also present problems, I would recommend using images that arent too large. 
 
 ### Prepping and running the code
 ***Processing Sketch***
