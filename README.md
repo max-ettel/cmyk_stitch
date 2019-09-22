@@ -32,6 +32,7 @@ These lines when layered in a print will create an approximation of the original
 3. Place the filenames for the CMYK channels in the corresponding sections of the code
     ex: `cyan = loadImage("yourcyanchannel.jpg");`
  4. At the top of the code there are *cellsize* variables for the individual channels. Set them to your desired size 
+ 
  **Note:** Ive found that a cellsize of 10 usually produces the best results.
  5. Press Run. It may take a moment depending on the image sizes. 
  
@@ -40,11 +41,14 @@ These lines when layered in a print will create an approximation of the original
  1. Acess the Folder that Contains the .pde file
  2. In that folder will be the images labeled as cyan_0001, magenta_0002, yellow_0003 and key__0004.
  3. Select them all and open in Photoshop
+ 
  ***Photoshop***
  1. In whichever image you access first go to *image* -> *mode* -> *grayscale*
  2. Save the file out as a jpeg to a secondary folder, this will prevent overwriting if you run the code again. 
  3. Repeat steps 4 & 5 for the rest of the output images
+ 
  **Note:** from here there are a variety of different ways you can get this prepped for print. I'm going to be showing you how I do it most of the time. 
+ 
  ***InDesign***
  1. Create a document that is your ideal print size (usually 8.5x11 or 9x12 for me)
  2.prest cmd+d to place the cyan layer in
